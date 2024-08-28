@@ -27,7 +27,7 @@ workflows:
     scripts:
       - name: Install npm dependencies for Ionic project
         script: |
-          npm install
+          npm install --legacy-peer-deps
       - name: Cocoapods installation
         script: |
           cd ios/App && pod install
@@ -54,26 +54,26 @@ workflows:
       - /tmp/xcodebuild_logs/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
-    publishing:
-      email:
-        recipients:
-          - daniel.mateo@devoteam.com
-        notify:
-          success: true     # To not receive a notification when a build succeeds
-          failure: true     # To not receive a notification when a build fails
-      app_store_connect:
-        auth: integration
+#     publishing:
+#       email:
+#         recipients:
+#           - daniel.mateo@devoteam.com
+#         notify:
+#           success: true     # To not receive a notification when a build succeeds
+#           failure: true     # To not receive a notification when a build fails
+#       app_store_connect:
+#         auth: integration
 
-        # Configuration related to TestFlight (optional)
-        # Note: This action is performed during post-processing.
-        submit_to_testflight: true
-        beta_groups: # Specify the names of beta tester groups that will get access to the build once it has passed beta review.
-          - group name 1
-          - group name 2
+#         # Configuration related to TestFlight (optional)
+#         # Note: This action is performed during post-processing.
+#         submit_to_testflight: true
+#         beta_groups: # Specify the names of beta tester groups that will get access to the build once it has passed beta review.
+#           - group name 1
+#           - group name 2
 
-        # Configuration related to App Store (optional)
-        # Note: This action is performed during post-processing.
-        submit_to_app_store: false
+#         # Configuration related to App Store (optional)
+#         # Note: This action is performed during post-processing.
+#         submit_to_app_store: false
 
 
   ionic-capacitor-android-workflow:
@@ -83,8 +83,8 @@ workflows:
     environment:
       android_signing:
         - keystore_reference
-      groups:
-        - google_play # <-- (Includes GCLOUD_SERVICE_ACCOUNT_CREDENTIALS <-- Put CONTENTS of your Gloud crendentials file here)
+#      groups:
+#         - google_play # <-- (Includes GCLOUD_SERVICE_ACCOUNT_CREDENTIALS <-- Put CONTENTS of your Gloud crendentials file here)
       vars:
         PACKAGE_NAME: "io.bosch.ionicsample"
         GOOGLE_PLAY_TRACK: alpha
@@ -127,15 +127,15 @@ workflows:
             -PversionName=1.0.$UPDATED_BUILD_NUMBER
     artifacts:
       - android/app/build/outputs/**/*.apk
-    publishing:
-      email:
-        recipients:
-          - user_1@example.com
-          - user_2@example.com
-        notify:
-          success: true
-          failure: false
-      google_play:
-        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
-        track: internal
-        submit_as_draft: true
+#     publishing:
+#       email:
+#         recipients:
+#           - user_1@example.com
+#           - user_2@example.com
+#         notify:
+#           success: true
+#           failure: false
+#       google_play:
+#         credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+#         track: internal
+#         submit_as_draft: true
