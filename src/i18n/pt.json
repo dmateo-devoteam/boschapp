@@ -1,0 +1,121 @@
+{
+  "title": "EasyPro",
+  "tabs": {
+    "home": "Inicio",
+    "formation": "Formación",
+    "contact": "Contacto",
+    "news": "Noticias",
+    "more": "Más"
+  },
+  "home": {
+    "infoSearch": "Pulse en buscar o escanear para encontrar su producto:",
+    "search": "Buscar",
+    "searchOption": "O busque el producto por categoría:",
+    "scan": "Escanear",
+    "heaters": "Calentadores",
+    "heat_pumps_acs": "Bombas de calor ACS",
+    "cerapur_boilers": "Calderas murales Cerapur",
+    "condens_boilers": "Calderas murales Condens",
+    "heat_pumps": "Bombas de calor",
+    "solar": "Solar",
+    "air_conditioning": "Aire acondicionado",
+    "standing_boilers": "Calderas de pie",
+    "vrf": "Mini VRF y VRF",
+    "1_family": {
+      "1_power": {
+      }
+    }
+  },
+  "tutorial": {
+    "intro": "- Haga scroll lateral para continuar -",
+    "continue": "Continuar",
+    "training": "En el apartado 'Formación' podemos encontrar los centros de formación oficiales de Bosch...",
+    "contact": "En el apartado 'Contacto' podemos encontrar información de contacto con la empresa...",
+    "news": "En el apartado 'Noticias' podemos encontrar las últimas noticias...",
+    "more": "Puedes volver esta explicación, accediendo desde el apartado Más"
+  },
+  "search": {
+    "message": "Por favor, introduzca al menos 3 caracteres para buscar: "
+  },
+  "adjusts": {
+    "title": "Ajustes"
+  },
+  "formation": {
+    "formation": "Formación",
+    "map_link": "Cómo llegar"
+  },
+  "product": {
+    "title": "Productos",
+    "name": "Nombre: ",
+    "reference": "Referencia: ",
+    "description": "Tipo de producto: ",
+    "menus": "Menús",
+    "diagnose": "Averias y diagnóstico",
+    "soundingLineValues": "Valores de sonda",
+    "videos": "Videos",
+    "thermostat": "Termostatos",
+    "electricConnections": "Conexiones eléctricas",
+    "burnerBurrelDimensions": "Dimensiones del cañón del quemador",
+
+    "burnerBurrellDimensions": "Dimensiones del cañón del quemador",
+    "display": "Display",
+    "electricConnection": "Conexiones eléctricas",
+    "evacuations": "Evacuaciones",
+    "hydraulicResistance": "Resistencia hidráulica",
+    "installation": "Instalación",
+    "menu": "Menú",
+    "probeValues": "Valores de sonda",
+    "remoteControl": "Control remoto",
+    "settings": "Ajustes",
+    "specs": "Medidas y distancias",
+    "techData": "Información técnica",
+    "thermostatConnection": "Conexión termostatos",
+    "waterQuality": "Calidad del agua"
+  },
+  "power": {
+    "title": "Potencias",
+    "name": "Nombre: ",
+    "reference": "Referencia: ",
+    "description": "Tipo de producto: ",
+    "specs": "Medidas y distancias",
+    "display": "Display",
+    "menus": "Menus",
+    "diagnose": "Averias y diagnóstico",
+    "evacuations": "Evacuaciones",
+    "soundingLineValues": "Valores de sonda",
+    "videos": "Videos"
+  },
+  "contact": {
+    "contact": "Contacto",
+    "professional_attention": "Atención al profesional",
+    "general_information": "Información general usuario final y aviso de averias",
+    "email": "Email",
+    "phone": "Teléfono"
+  },
+  "news": {
+    "title": "Noticias",
+    "detail": "Noticia",
+    "more_news": "Más noticias",
+    "no_more": "No hay más noticias"    
+  },
+  "more": {
+    "more_information": "Más información",
+    "legal_information": "Información legal de la empresa",
+    "terms_of_use": "Condiciones de uso",
+    "data_protection": "Política de protección de datos",
+    "legal_notices": "Avisos legales",
+    "open_source_license": "Licencias de software",
+    "version": "Version",
+    "tutorial": "Ayuda"
+  },
+  "families": {
+    "title": "Familias"
+  },
+  "instalation": {
+    "title": "Instalación"
+  },
+  "messages": {
+    "connection": "Ha ocurrido un problema de conexión",
+    "info": "Por favor, espera..."
+  }
+}

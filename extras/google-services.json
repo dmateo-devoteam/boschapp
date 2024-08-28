@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "974641126359",
+    "project_id": "easy-pro-14818",
+    "storage_bucket": "easy-pro-14818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974641126359:android:e488d439033e7d5d8b4992",
+        "android_client_info": {
+          "package_name": "com.bosch.hc.easypro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974641126359-pa5f99ota4665ardu11hg36rp7ui8lsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwhsRJ8gP7sY6-jg-bzSc7HIcNhkOgDXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974641126359-pa5f99ota4665ardu11hg36rp7ui8lsm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "974641126359-ub8mboj057op9g602ptk757kltsu21nu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bosch.hc.easypro"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

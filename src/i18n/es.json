@@ -1,0 +1,149 @@
+{
+  "title": "EasyPro",
+  "tabs": {
+    "home": "Inicio",
+    "formation": "Formación",
+    "contact": "Contacto",
+    "news": "Noticias",
+    "more": "Más"
+  },
+  "home": {
+    "infoSearch": "Pulse en buscar o escanear para encontrar su producto:",
+    "search": "Buscar",
+    "searchOption": "O busque el producto por categoría:",
+    "scan": "Escanear",
+    "heaters": "Calentadores",
+    "heat_pumps_acs": "Bombas de calor ACS",
+    "cerapur_boilers": "Calderas murales Cerapur",
+    "condens_boilers": "Calderas murales Condens",
+    "heat_pumps": "Bombas de calor",
+    "solar": "Solar",
+    "air_conditioning": "Aire acondicionado",
+    "standing_boilers": "Calderas de pie",
+    "vrf": "Mini VRF y VRF",
+    "1_family": {
+      "1_power": {}
+    }
+  },
+  "tutorial": {
+    "intro": "- Haga scroll lateral para continuar -",
+    "continue": "Continuar",
+    "training": "En el apartado 'Formación' podemos encontrar los centros de formación oficiales de Bosch...",
+    "contact": "En el apartado 'Contacto' podemos encontrar información de contacto con la empresa...",
+    "news": "En el apartado 'Noticias' podemos encontrar las últimas noticias...",
+    "more": "Puedes volver esta explicación, accediendo desde el apartado Más"
+  },
+  "search": {
+    "message": "Escriba al menos 3 caracteres...",
+    "noResults": "No se han encontrado datos para su búsqueda. Por favor, modifique la búsqueda para volver a intentarlo.",
+    "moreData": "Cargando más datos"
+  },
+  "adjusts": {
+    "title": "Ajustes"
+  },
+  "formation": {
+    "register": "Inscríbete en nuestras formaciones",
+    "title": "Formación",
+    "mapLink": "Cómo llegar",
+    "moreInfo": "Más información"
+  },
+  "products": {
+    "title": "Productos"
+  },
+  "product": {
+    "title": "Productos",
+    "name": "Nombre: ",
+    "reference": "Referencia: ",
+    "description": "Tipo de producto: ",
+    "menus": "Menús",
+    "diagnose": "Averias y diagnóstico",
+    "searchCode": "Buscar por código",
+    "soundingLineValues": "Valores de sonda",
+    "videos": "Videos",
+    "video": "Video",
+    "thermostat": "Termostatos",
+    "electricConnections": "Conexiones eléctricas",
+    "burnerBurrelDimensions": "Dimensiones del cañón del quemador",
+    "serialNumber": "Referencia",
+    "type": {
+      "2": "Información técnica",
+      "3": "Ajustes",
+      "4": "Control remoto",
+      "5": "Display",
+      "6": "Valores de sonda",
+      "7": "Evacuaciones",
+      "8": "Medidas y distancias",
+      "9": "Menú",
+      "10": "Instalación",
+      "11": "Conexión termostatos",
+      "12": "Conexiones eléctricas",
+      "13": "Calidad del agua",
+      "14": "Resistencia hidráulica",
+      "15": "Dimensiones del cañón del quemador"
+    }
+  },
+  "power": {
+    "title": "Modelos",
+    "name": "Nombre: ",
+    "reference": "Referencia: ",
+    "description": "Tipo de producto: ",
+    "specs": "Medidas y distancias",
+    "display": "Display",
+    "menus": "Menus",
+    "diagnose": "Averias y diagnóstico",
+    "evacuations": "Evacuaciones",
+    "soundingLineValues": "Valores de sonda",
+    "videos": "Videos"
+  },
+  "contact": {
+    "contact": "Contacto",
+    "professional_attention": "Atención al profesional",
+    "general_information": "Información general usuario final y aviso de averias",
+    "email": "Email",
+    "phone": "Teléfono"
+  },
+  "news": {
+    "title": "Noticias",
+    "detail": "Noticia",
+    "more_news": "Más noticias",
+    "no_more": "No hay más noticias"
+  },
+  "more": {
+    "more_information": "Más información",
+    "legal_information": "Información legal de la empresa",
+    "terms_of_use": "Condiciones de uso",
+    "data_protection": "Política de protección de datos",
+    "legal_notices": "Avisos legales",
+    "open_source_license": "Licencias de software",
+    "version": "Version",
+    "tutorial": "Ayuda"
+  },
+  "families": {
+    "title": "Familias"
+  },
+  "installation": {
+    "title": "Instalación"
+  },
+  "electricConnections": {
+    "title": "Conexiones eléctricas"
+  },
+  "waterQuality": {
+    "title": "Calidad del agua"
+  },
+  "hydraulicResistance": {
+    "title": "Resistencia hidráulica"
+  },
+  "messages": {
+    "connection": "No se ha podido cargar la información. Por favor, revise su conexión a internet y pulse aqui para volver a intentarlo.",
+    "info": "Por favor, espera..."
+  },
+  "faults": {
+    "code": "Código",
+    "definition": "Definición",
+    "diagnosis": "Diagnosis",
+    "search": "Buscar",
+    "searchMessage": "Escriba el código de avería",
+    "notDefinition": "Sin definición",
+    "searchTitle": "Buscar averías"
+  }
+}

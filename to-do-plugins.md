@@ -1,0 +1,24 @@
+- qr reader
+    - https://gruhn.github.io/vue-qrcode-reader/demos/CustomTracking.html
+- share links
+    - https://ionicframework.com/docs/native/social-sharing
+    - https://www.youtube.com/watch?v=MjB1Nyx6hns
+    - https://www.npmjs.com/package/vue-social-sharing +
+    https://medium.com/@alejandrolp1986/compartir-social-sharing-desde-tu-ionic-5-app-298ade7bda1b +
+- check link to map
+    - Si necesitamos crear variables para una localización este es el bueno - https://www.youtube.com/watch?v=m4ad3eEFhAo
+- check link to phone
+- check link to email
+    - https://www.youtube.com/watch?v=9ARCCDwpVqM
+    - :href="`mailto:${sol.email}`"
+- detalle de imagen con zoom
+    - https://devdactic.com/ionic-image-zoom-guide/
+    - https://www.youtube.com/watch?v=MLFRohRQT7U
+    - https://www.youtube.com/watch?v=U_MFYvZxJ0E Está bastante bien
+- navegador web integrado como popup
+    - https://www.youtube.com/watch?v=BXaDcfn8J4s Es con Angular pero se podría adaptar
+- demo-tutorial
+- multi-idioma
+    - https://www.youtube.com/watch?v=bVIH8f0Oyv0
+    - https://www.youtube.com/watch?v=ogfVE5Usd-k Puede dar alguna idea
+    - https://www.youtube.com/watch?v=zJBxAx_xPqM Tiene buena pinta

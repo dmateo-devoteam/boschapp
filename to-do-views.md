@@ -1,0 +1,11 @@
+
+- Menús (imagen)
+- Averías y Diagnóstico lista con buscador (local)
+- Averias y diagnostico detalle
+- Evacuaciones (imagen)
+- Evacuaciones subapartado (imagen)
+- Valores de sonda (imagen)
+- Lista vídeos
+- Detalle video
+- Ajustes formulario
+- Ajustes detalle

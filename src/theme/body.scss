@@ -1,0 +1,104 @@
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.max-width {
+  max-width: 100%;
+}
+
+.br {
+  margin-bottom: 6px;
+}
+
+.subtitle-img {
+  margin-top: 1em;
+  margin-bottom: 5px;
+  display: flex-end;
+}
+
+.icon-link {
+  margin-right: 5px;
+}
+
+.icon-phone-link {
+  @extend .icon-link;
+  margin-top: -3px;
+}
+
+.image-slider-height{
+  height:300px
+}
+
+.more-content-btn {
+  padding-left: .5em;
+  padding-right: .5em;
+  margin-top: 1em;
+  margin-bottom: 1.2em;
+}
+
+.locator-icon {
+  color: #007BC0;
+  font-size: x-large;
+  margin-left: -4px;
+}
+
+.location-link {
+  margin-left: .5em;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.date-news {
+  margin-bottom: 10px
+}
+
+.tutorial-description {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: justify;
+}
+.wrap-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+}
+
+.modalFormat {
+  text-align: center;
+  color: white;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.scan-box {
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 100vmax rgb(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  left: 50%;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+.scan-button {
+  margin: 0px;
+  position: absolute;
+  bottom: 100px;
+  width: 100vw;
+  height: 50px;
+  z-index: 11;
+}
+
+.qr-page ion-content {
+  --background: transparent;
+}

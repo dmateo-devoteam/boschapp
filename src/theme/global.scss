@@ -1,0 +1,83 @@
+$primary: #007BC0;
+$secondary: #71767C;
+
+@font-face {
+  font-family: 'BoschSans';
+  src: url('../../assets/fonts/BoschSans-Regular.ttf');
+}
+
+.no-display {
+  display: none;
+}
+
+.no-shadow {
+  --box-shadow: none;
+}
+
+.no-border {
+  border: none;
+}
+
+.width {
+  width: 100%;
+}
+
+/*ion-item {
+  height: 3em;
+}*/
+
+/**
+  Removida la elevación de las noticias
+ */
+ion-card {
+  border-radius: unset;
+  border-bottom: #71767C solid 1px;
+  box-shadow: none !important;
+  margin:0;
+}
+
+.primary {
+  color: $primary
+}
+
+.secondary {
+  color: $secondary;
+}
+
+a.size {
+  /*font-size: .8rem;
+  text-transform: lowercase;*/
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.trainingCenter-image {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.boldText{
+  font-weight: bold;
+}
+
+.no-connection-message{
+  text-align:center
+}
+
+.no-connection-message ion-icon{
+  font-size:48px;
+  color:gray;
+}
+
+.multi-imagen{
+  border:1px solid grey;
+  padding:10px;
+  border-radius:15px
+}

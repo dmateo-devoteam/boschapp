@@ -1,0 +1,7 @@
+{
+  "name": "bosch-easy-pro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

@@ -1,0 +1,11 @@
+
+.tabBar, ion-tab-bar {
+  font-weight: bold;
+  --background: #007BC0;
+  color: white;
+}
+
+.tabBar[aria-selected=true] {
+  --background: white;
+  color: #007BC0;
+}
